@@ -1,16 +1,16 @@
-1.--- Найди ошибку ---
+﻿1.--- Найди ошибку ---
 
 insert into test(test1, test2, test3)
-Values(1, 'kolm', 'Git', 46)
+Values(1, 'kolm', 'Git')
 
 2.--- Перевод слов ---
 
-tabeli eemaldamine -
-veateade -
-piirang -
+tabeli eemaldamine - удаление таблицы
+veateade - сообщение об ошибке
+piirang - ограничение
 
 3.--- Дополни запрос ---
 
 create table text(
-id primary key identity(1,),
-text varchar(20,
+id primary key identity(1,1),
+text varchar(20))
